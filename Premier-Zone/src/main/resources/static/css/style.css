@@ -1,0 +1,122 @@
+/* =========================
+   Global
+========================= */
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   Headings
+========================= */
+h2, h4 {
+    font-weight: 600;
+    color: #212529;
+}
+
+/* =========================
+   Cards
+========================= */
+.card {
+    border-radius: 14px;
+    border: none;
+}
+
+.card-header {
+    border-radius: 14px 14px 0 0;
+}
+
+/* =========================
+   Tables
+========================= */
+.table {
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+
+.table thead th {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.table tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* =========================
+   Buttons
+========================= */
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+.btn-success {
+    border: none;
+}
+
+.btn-warning {
+    border: none;
+    color: #212529;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+/* =========================
+   Forms
+========================= */
+.form-control {
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* =========================
+   Links
+========================= */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Layout helpers
+========================= */
+.container {
+    max-width: 1200px;
+}
+
+/* =========================
+   Empty table message
+========================= */
+.text-muted {
+    font-size: 0.95rem;
+}
+
+/* =========================
+   Future-ready header spacing
+========================= */
+.page-header {
+    margin-bottom: 25px;
+}
